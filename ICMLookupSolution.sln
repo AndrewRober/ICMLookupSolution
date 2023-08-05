@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMLookup", "ICMLookup\ICML
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMLookupTestProject", "ICMLookupTestProject\ICMLookupTestProject.csproj", "{555A1F48-7122-4A87-B0AD-8A99CD7999C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMLookupConsoleApp", "ICMLookupConsoleApp\ICMLookupConsoleApp.csproj", "{4F091E98-D7BA-46E7-8C70-BCD8CA843422}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{555A1F48-7122-4A87-B0AD-8A99CD7999C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{555A1F48-7122-4A87-B0AD-8A99CD7999C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{555A1F48-7122-4A87-B0AD-8A99CD7999C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F091E98-D7BA-46E7-8C70-BCD8CA843422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F091E98-D7BA-46E7-8C70-BCD8CA843422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F091E98-D7BA-46E7-8C70-BCD8CA843422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F091E98-D7BA-46E7-8C70-BCD8CA843422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

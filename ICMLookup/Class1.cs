@@ -68,11 +68,11 @@ namespace ICMLookup
         }
     }
 
-    public class ICMLookup
+    public class Lookup
     {
         private static readonly Dictionary<CodeType, HashSet<ICMCode>> codes;
 
-        static ICMLookup()
+        static Lookup()
         {
             codes = new Dictionary<CodeType, HashSet<ICMCode>>
             {

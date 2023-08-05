@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ICM\ICM-10\ICD10 diag.csv" />
+    <None Remove="ICM\ICM-10\ICD10 procs.csv" />
+    <None Remove="ICM\ICM-9\ICM-9-Diagnosis.csv" />
+    <None Remove="ICM\ICM-9\ICM-9-Procedures.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="ICM\ICM-10\ICD10 diag.csv" />
+    <EmbeddedResource Include="ICM\ICM-10\ICD10 procs.csv" />
+    <EmbeddedResource Include="ICM\ICM-9\ICM-9-Diagnosis.csv" />
+    <EmbeddedResource Include="ICM\ICM-9\ICM-9-Procedures.csv" />
+  </ItemGroup>
+
+</Project>
